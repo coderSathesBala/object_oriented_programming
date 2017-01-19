@@ -9,7 +9,7 @@ class Cat
       def eats_at
 
       if @meal_time > 12
-  @meal_time = @meal_time - 12
+  @meal_time = (@meal_time - 12)
   return "#{@meal_time}PM"
 
   elsif @meal_time == 12
