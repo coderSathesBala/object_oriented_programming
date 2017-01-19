@@ -14,7 +14,7 @@ end
 def decrease(deposit_amount)
   @balance -= deposit_amount
   puts "SUBTRACT #{@balance} - #{deposit_amount}"
-end
+end 
 
   def interest
     @balance = @balance + (@balance*(@interest_rate))
